@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<script src="person.js"></script>
+</head>
+
+<body>
+	<h2>Привет Клоун!</h2>
+
+    <p id="person"></p>
+
+    <script>
+        document.getElementById("person").innerHTML =
+        person.name + "<br> Кто ты по : " +person.age + "";
+    </script>
+    <p id="name"></p>
+    <button onclick="document.getElementById('name').innerHTML =
+     person.fullname()">Вывести имя и фамилию</button>
+</body>
+<h2>ПОДАРОК</h2>
+    <button onclick="light_on()">Слушай а...</button>
+
+    <img id="myImage" src="pic_bulboff.gif" style="width:200px">
+
+    <button onclick="light_off()">Пошол нахуй</button>   
+
+    <body>
+        <h1 id="header">И кстати</h1>
+        <button onclick="create_p()">нажми</button>
+
+</html>
